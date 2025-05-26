@@ -5,7 +5,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["register"])) {
     // Your existing code for handling form data
 
     // Verify reCAPTCHA
-    $recaptchaSecretKey = "6Lc5KYspAAAAAGLcs9aVOZD3O7TLWCrPvmSHJWoJ"; // Replace with your actual reCAPTCHA secret key
+    $recaptchaSecretKey = ""; // Replace with your actual reCAPTCHA secret key
     $recaptchaResponse = $_POST["g-recaptcha-response"];
 
     // Send a POST request to Google reCAPTCHA API
